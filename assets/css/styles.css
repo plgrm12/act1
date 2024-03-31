@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+}
+header a{
+    margin-left: 200px;
+}
+header h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+header p{
+    text-align: center;
+}
+header h4{
+    text-align: center;
+}
+
+    .section {
+        display: flex;
+        align-items: center; /* Centra verticalmente los elementos */
+    }
+    
+    .image-container {
+        flex: 0 0 auto; /* No crece ni se reduce, tamaño automático */
+    }
+    
+    .text-container {
+        margin-left: 20px; /* Espacio entre la imagen y el texto */
+    }
+img{
+        height: 150px;
+        width: 200px;
+        
+}
+.img{
+    margin-top: 250px;
+    height: 150px;
+    width: 200px;
+}
+a{
+    text-align: center;
+    margin-top: 0 auto;
+   
+}
+.texto{
+    flex: 0 0 auto; 
+    margin-top: 250px;
+    margin-left: 20px;
+}
